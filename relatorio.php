@@ -1,10 +1,8 @@
 <?php session_start() ?>
 
-<html>
-
 <head>
     <meta charset="utf-8">
-    <title>PROCESSOS SEGURADORAS - GNP</title>
+    <title>RELATÓRIOS SEGURADORAS - GNP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Gente, Mapfre, MBM, Porto e Sompo">
     <meta name="author" content="Matheus Mussatto Rodrigues">
@@ -15,24 +13,24 @@
 
 <body style="background-color:#A6A6A6">
     <header>
-        <h1 style="text-align: center; margin-top:20px; font-family:Georgia, 'Times New Roman', Times, serif">PROCESSOS SEGURADORAS - GNP SEGUROS</h1>
+        <h1 style="text-align: center; margin-top:20px; font-family:Georgia, 'Times New Roman', Times, serif">RELATÓRIOS SEGURADORAS - GNP SEGUROS</h1>
     </header>
 
     <main>
         <div class="container" style="margin-top:40px">
             <div class="row">
                 <div class="col-sm">
-                    <button onclick="window.location.href='seguradora/gente.php'" name="gente">
+                    <button onclick="window.location.href='http://localhost/gnp_process/painel_gente/painel.php'" name="gente">
                         <img src="image/gente.png" alt="GENTE SEGURADORA">
                     </button>
                 </div>
                 <div class="col-sm">
-                    <button onclick="window.location.href='seguradora/mapfre.php'" name="mapfre">
+                    <button onclick="window.location.href='http://localhost/gnp_process/painel_mapfre/painel.php'" name="mapfre">
                         <img src="image/mapfre.png" alt="MAPFRE SEGUROS">
                     </button>
                 </div>
                 <div class="col-sm">
-                    <button onclick="window.location.href='seguradora/mbm.php'" name="mbm">
+                    <button onclick="window.location.href='http://localhost/gnp_process/painel_mbm/painel.php'" name="mbm">
                         <img src="image/mbm.png" alt="MBM SEGURADORA">
                     </button>
 
@@ -43,39 +41,31 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
-                    <button onclick="window.location.href='seguradora/porto.php'" name="porto">
+                    <button onclick="window.location.href='http://localhost/gnp_process/painel_porto/painel.php'" name="porto">
                         <img src="image/porto.png" alt="PORTO SEGUROS">
                     </button>
                 </div>
                 <div class="col-sm">
-                    <button onclick="window.location.href='seguradora/sompo.php'" name="sompo">
+                    <button onclick="window.location.href='http://localhost/gnp_process/painel_sompo/painel.php'" name="sompo">
                         <img src="image/sompo.png" alt="SOMPO SEGURADORA">
                     </button>
                 </div>
 
                 <div class="col-sm">
-                    <button onclick="window.location.href='seguradora/sura.php'" name="sura">
+                    <button onclick="window.location.href='http://localhost/gnp_process/painel_sura/painel.php'" name="sura">
                         <img src="image/sura.png" alt="SURA SEGURADORA">
                     </button>
                 </div>
             </div>
         </div>
 
-        <br><br>
-        <div class="container">
+        <div class="container" style="margin-top: 120px">
             <div class="row">
-                <div class="col-sm">
-                    <button onclick="window.location.href='relatorio.php'" name="porto">
-                        <img src="image/relatorio.png" alt="relatorio">
-                    </button>
+                <div class="col">
+                    <a href="index.php" style="color:#FFF; text-decoration:none">Voltar</a>
                 </div>
-            </div>
-        </div>
-
     </main>
+
     <footer style="margin-top:90px">
         <p style="text-align: center; padding-top:15px; color:#FFF">&copy copyright</p>
     </footer>
-</body>
-
-</html>
