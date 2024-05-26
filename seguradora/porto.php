@@ -20,12 +20,8 @@
         <span><?= (isset($_SESSION['msgErr']['status'])) ? $_SESSION['msgErr']['status'] : ''; ?></span>
         <label style="color:#FFF">Status:</label>
         <select name="status">
-            <option value="">Escolha</option>
-            <option value="analise">Em análise</option>
-            <option value="capa">Fazer Capa</option>
-            <option value="cadastro">Para Cadastro</option>
-            <option value="solicitado">Solicitado</option>
-            <option value="transferencia">Transferência</option>
+            <option value="protocolado">Protocolado</option>
+            <option value="capa">Capa</option>
         </select>
         <br>
         <br>

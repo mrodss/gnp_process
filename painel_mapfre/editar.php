@@ -74,11 +74,9 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['id'])) {
         <span><?= (isset($error['status'])) ? $error['status'] : ''; ?></span>
         <label style="color:#FFF">Status:</label>
         <select name="status">
-            <option value="">Escolha</option>
             <option value="analise" <?= ($status == 'analise') ? 'selected' : '' ?>>Em análise</option>
-            <option value="capa" <?= ($status == 'capa') ? 'selected' : '' ?>>Fazer Capa</option>
-            <option value="cadastro" <?= ($status == 'cadastro') ? 'selected' : '' ?>>Para Cadastro</option>
-            <option value="solicitado" <?= ($status == 'solicitado') ? 'selected' : '' ?>>Solicitado</option>
+            <option value="capa" <?= ($status == 'capa') ? 'selected' : '' ?>>Capa</option>
+            <option value="cadastro" <?= ($status == 'cadastro') ? 'selected' : '' ?>>Cadastro</option>
             <option value="transferencia" <?= ($status == 'transferencia') ? 'selected' : '' ?>>Transferência</option>
         </select>
         <br />
